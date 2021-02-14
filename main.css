@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+/* -------- nav ---------- */
+
+#navi{
+    display: flex;
+
+    background-color: #ffedeb;
+
+
+
+}
+.left{
+    width: 40%;
+    display: flex;
+    background-color: #ffedeb;
+    padding: 20px;
+
+
+}
+.nav-upper{
+    width: 60%;
+}
+.nav-lower{
+    text-align: end;
+    padding-right: 50px;
+}
+.kyokai{
+    padding: 40px;
+    text-align: end;
+    justify-content: space-between;
+    
+}
+/*---------------------ナブのマウスホバー時イベント　----------------- */
+
+
+.first:hover{
+    background-color: #95daff !important;
+
+}
+
+.second:hover{
+    background-color: #f196bd !important;
+
+}
+
+.third:hover{
+    background-color: #f1e53e !important;
+
+}
+
+.forth:hover{
+    background-color: #bfdf6e !important;
+
+}
+
+.fifth:hover{
+    background-color: #f17277 !important;
+
+}
+
+
+.nav-lower{
+
+}
+
+
+
+a .membership{
+    text-decoration: none;
+    padding: 3px;
+}
+
+/*---------------------お知らせ　＆　研修会情報　----------------- */
+
+.half{
+    background: url('img/kids.png') no-repeat;
+    background-position: left top 100px;
+
+}
+.col-md-6{
+    padding: 30px;
+    justify-content: space-around;
+    text-align: center;
+    width: 1120px;
+    background-color: #ffedeb;
+}
+.half h2{
+    padding-bottom: 50px;
+    padding-top: 70px;
+
+    background: url("img/circle1.png") 40% center no-repeat ;
+}
+.second-half h2{
+    padding-bottom: 50px;
+    padding-top: 70px;
+    background: url('img/circle5.png') 40% center no-repeat;
+}
+
+.information{
+    background-color: #fff9f4;
+    border-radius: 20px;
+    margin-left: 20px;
+
+
+
+}
+.anotherInfo{
+    background-color: #f8f8ff;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.mini-header,.mini-header2,.mini-header3,.mini-header4,.mini-header5{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/*---------------------動画　----------------- */
+
+.embed-responsive{
+    margin-bottom: -30px;
+}
+video{
+    position: center;
+
+    justify-content: space-around;
+    width: 1200px;
+    padding: 30px;
+
+    background-color: #ffedeb;
+
+}
+
+/*---------------------４つの円形状コラム　----------------- */
+
+
+
+.recomendation{
+    justify-content: space-between;
+
+    text-align: center;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+.row{
+    margin: 30px;
+}
+.col-md-2{
+    width: 40px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 50px;
+
+
+}
+.about{
+
+    left: 2px;
+    bottom: 0px;
+    background: url('img/about.png') no-repeat center;
+
+}
+.content{
+    background: url('img/circle2.png')no-repeat center;
+}
+.aliance-kindergarten{
+    background: url('img/circle3.png')no-repeat center;
+
+}
+.joinUs{
+    background: url('img/circle4.png')no-repeat center;
+
+}
+
+
+/** --------------- 機関紙・　入会のご案内セクション　-------------------*/
+.brochure{
+
+    justify-content: center;
+
+
+}
+.onleft{
+    padding:20px ;
+    justify-content: space-around;
+    background-color: #f7c8dc;
+    border-radius: 50px 0px 0px 50px ;
+
+
+}
+.onright{
+
+    padding: 20px;
+    border-radius: 0px 50px 50px 0px;
+    border: solid 10px #f7c8dc;
+    background-color: #fdf4f8;
+}
+.joining{
+
+    margin-top: 50px;
+}
+
+.onleft1{
+    padding: 50px 0 0 0;
+    background-color: #cce198;
+    border-radius: 50px 0px 0px 50px ;
+
+
+}
+.onright1{
+    padding: 20px;
+    border-radius: 0px 50px 50px 0px;
+    background-color: #f5f9ea;
+    border: solid 10px #cce198;
+
+}
