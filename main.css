@@ -1,9 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-
-
-
+    background-color: #ffedeb !important;
 }
 
 /* -------- nav ---------- */
@@ -28,14 +26,27 @@ body {
     width: 60%;
 }
 .nav-lower{
+
     text-align: end;
     padding-right: 50px;
 }
+
 .kyokai{
+    margin-left: 150px;
     padding: 40px;
-    text-align: end;
-    justify-content: space-between;
+    text-align: right;
+
     
+}
+.nav-link:hover{
+    background-color: #85ccf3 !important;
+}
+.navbar{
+    margin: 5px;
+    text-align: right;
+
+    justify-content: space-between;
+
 }
 /*---------------------ナブのマウスホバー時イベント　----------------- */
 
@@ -190,8 +201,6 @@ video{
 .brochure{
 
     justify-content: center;
-
-
 }
 .onleft{
     padding:20px ;
@@ -226,4 +235,131 @@ video{
     background-color: #f5f9ea;
     border: solid 10px #cce198;
 
+}
+
+/***---------------- 教材紹介 ------------- */
+aside{
+    background: url("img/circle7.png")no-repeat;
+    background-position: left 100px;
+    background-color:  #ffedeb;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+}
+
+.circle{
+    background: url("img/circle11.png")no-repeat;
+    background-position: right 100px;
+}
+.intro{
+    background: url('img/circle10.png') 45% center no-repeat;
+    padding: 50px;
+
+}
+.article{
+    padding-bottom: 10px;
+    background-image:
+        url('img/frame.png'),
+        url('img/circle11.png');
+
+    background-position: 
+        top 60px left 40px,
+        bottom 130px left 250px;
+    
+    background-repeat: 
+        no-repeat;
+}
+.picture{
+    padding: 20px;
+}
+.rap{
+    background-color: white;
+    padding: 20px;
+
+}
+
+.introduction{
+    background-color: #ffedeb;
+    padding-top: 50px;
+    margin-top: -20px;
+}
+.rap3{
+    width: 500px;
+    text-align: start;
+    margin-left: 220px
+
+}
+.rap2{
+    padding: 30px;
+    margin-top: 30px;
+    background-color: white;
+    
+}
+.hakko{
+    background: url('img/momIkid.png') no-repeat;
+    background-position: bottom 20px right -30px;
+    
+}
+.others:hover{
+    background-color: #ff9966 !important;
+
+}
+
+
+/* ------------------------ */
+
+#video{
+    background: url('img/circle12.png')no-repeat;
+    background-position: bottom 10px right;
+    padding: 120px;
+    margin-top: -30px;
+}
+.movie{
+    padding: 10px;
+    text-align: center;
+    background-color:#7ecef4;
+    border-radius: 50px 0px 0px 50px;
+   
+}
+.description{
+    padding: 20px;
+    background-color: #f2fafe;
+    border: 10px solid #7ecef4;
+    border-radius: 0px 50px 50px 0px;
+}
+
+/*--------------------------*/
+.lastSection{
+    padding: 30;
+    background: url('img/circle13.png') 40% center no-repeat;
+
+}
+.image{
+    padding: 0 30px 100px 0px;
+    background-image:
+        url('img/frame2.png'),
+        url('img/circleFrame.png');
+    background-position:
+        bottom 70px left 100px,
+        bottom -10px right 30px;
+    background-repeat:
+        no-repeat;
+}
+.house{
+    padding-top: 100px;
+    margin-right: 20px;
+    background: url('img/circle15.png')no-repeat;
+    background-position: bottom 90px left 0px;
+}
+footer{
+    border-top: solid 5px #cce198;
+    background-color: white;
+    border: solid 3px black;
+    justify-content: center;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
